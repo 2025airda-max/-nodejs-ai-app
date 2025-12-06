@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Web App</title>
-</head>
-<body>
-    <h1>Welcome to your AI Web App!</h1>
-    <p>This is a basic Node.js Express application.</p>
-    <p>We will integrate AI capabilities soon.</p>
-</body>
-</html>
+   <html lang="ru">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Gemini AI Ассистент</title>
+       <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+       <div class="container">
+           <h1>Спроси у Gemini</h1>
+           <textarea id="prompt-input" placeholder="Напиши свой вопрос здесь..."></textarea>
+           <button id="generate-button">Отправить</button>
+           <div id="response-container">
+               <p id="response-text"></p>
+           </div>
+       </div>
+       <script src="script.js"></script>
+   </body>
+   </html>
